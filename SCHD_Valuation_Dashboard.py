@@ -9,7 +9,7 @@ from plotly.subplots import make_subplots
 
 # 노션 화면에 꽉 차게 보이도록 레이아웃 설정
 st.set_page_config(page_title="SCHD Valuation Dashboard", layout="wide")
-st.subheader("SCHD 실시간 가치평가 대시보드 (노이즈 제거판)")
+st.subheader("SCHD 실시간 가치평가 대시보드")
 
 # 데이터 로딩 및 캐싱 (하루 단위로만 새로고침하여 로딩 속도 최적화)
 @st.cache_data(ttl=86400)
